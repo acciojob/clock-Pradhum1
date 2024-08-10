@@ -1,6 +1,7 @@
 //your JS code here. If required.
-let para = document.querySelector("#timer");
+let para = document.querySelector("#timer")
 function currentTime(){
+	let date = new Date()
 	let hour = date.getHours()
 	let min = date.getMinutes()
 	let sec = date.getSeconds()
