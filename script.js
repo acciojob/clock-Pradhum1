@@ -12,7 +12,7 @@ function currentTime(){
 	for(i=0; i<=2; i++){
 		arrayOfTime[i]=addZero(arrayOfTime[i])
 	}
-	let time = `${arrayOfTime[0]}:${arrayOfTime[1]}:${arrayOfTime[2]}:${arrayOfTime[3]}`
+	let time = `${arrayOfTime[0]}:${arrayOfTime[1]}:${arrayOfTime[2]} ${arrayOfTime[3]}`
 
 	para.innerHTML =`${month}/ ${day}/ ${year}, ${time}`
 }
